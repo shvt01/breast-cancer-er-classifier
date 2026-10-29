@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+geo_cache/
+*.gz
+*.soft
+.DS_Store
