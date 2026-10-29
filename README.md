@@ -42,11 +42,13 @@ All data are public and downloaded by the notebook at run time. No data files ar
 
 **PCA of TCGA and GSE7390 together.** The two cohorts separate completely along PC1 (a platform/batch difference that the rank transform does not remove), while PC2 separates ER+ from ER- in both cohorts. This is why ranking transfers well but raw scores are shifted.
 
-![PCA of TCGA and GSE7390, colored by cohort and by ER status](images/pca_cohorts.png)
+
 
 **External ROC curve, GSE7390** (rank-only pipeline, model trained on TCGA only).
 
-![ROC curve on GSE7390, AUC 0.926](images/roc_gse7390.png)
+<img width="420" height="432" alt="roc_gse7390 png" src="https://github.com/user-attachments/assets/0492771c-afc0-48bc-a77f-29cdd77bf6c2" />
+<img width="1089" height="390" alt="pca_cohorts png" src="https://github.com/user-attachments/assets/a52d96bd-91bb-4e14-9540-19ccae943329" />
+
 
 ## What the results show
 
